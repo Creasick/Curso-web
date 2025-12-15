@@ -19,6 +19,7 @@ header {
     color: white;
     padding: 2rem; /* Espacio interno (aprox 32px) */
     text-align: center;
+    min-height: 10vh;
 }
 
 /* 4. Estilos de la Navegación */
@@ -42,7 +43,7 @@ nav ul li a {
 
 /* 5. Contenedor principal */
 main {
-    max-width: 800px; /* Que no se estire infinito en pantallas grandes */
+    width: min(90vw, 800px);
     margin: 20px auto; /* Centra el bloque en la pantalla */
     padding: 20px;
     background: white;
