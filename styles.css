@@ -1,0 +1,55 @@
+/* 1. Selector Universal (*): Reseteamos márgenes molestos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fundamental para que el padding no deforme las cajas */
+}
+
+/* 2. Estilos generales al cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipografía limpia */
+    line-height: 1.6; /* Altura de línea para que sea legible */
+    background-color: #f4f4f4; /* Gris muy suave de fondo */
+    color: #333; /* Gris oscuro para el texto (nunca uses negro absoluto #000, cansa la vista) */
+}
+
+/* 3. Estilos de la Cabecera */
+header {
+    background-color: #05529e; /* Un azul oscuro elegante */
+    color: white;
+    padding: 2rem; /* Espacio interno (aprox 32px) */
+    text-align: center;
+}
+
+/* 4. Estilos de la Navegación */
+nav ul {
+    background-color: #34495e;
+    list-style: none; /* Quita los puntos • de la lista */
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline; /* Pone los elementos uno al lado del otro */
+    margin: 0 15px; /* Separación lateral */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado feo de los links */
+    color: white;
+    font-weight: bold;
+}
+
+/* 5. Contenedor principal */
+main {
+    max-width: 800px; /* Que no se estire infinito en pantallas grandes */
+    margin: 20px auto; /* Centra el bloque en la pantalla */
+    padding: 20px;
+    background: white;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombrita sutil */
+}
+
+section {
+    margin-bottom: 20px;
+}
