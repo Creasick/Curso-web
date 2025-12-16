@@ -28,6 +28,9 @@ nav ul {
     list-style: none; /* Quita los puntos • de la lista */
     text-align: center;
     padding: 1rem;
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 nav ul li {
@@ -53,4 +56,24 @@ main {
 
 section {
     margin-bottom: 20px;
+}
+
+.galeria{
+    border: 2px dotted blue;
+}
+.contenedor-galeria{
+    margin-top: 2rem;
+    border: 2px solid #333;
+    display:flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.caja{
+    background-color: tomato;
+    color:white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+
 }
